@@ -1,36 +1,42 @@
 <!doctype html>
-<html lang="en">
+<html lang="fr">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Mon Site Web Simple</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>Titre 1</h1>
-    <p>Ceci est un paragraphe.</p>
-    <br />
-    <div class="test">
-      <p>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi
-        asperiores est porro numquam laudantium, nulla facilis, expedita ea
-        facere nam enim perspiciatis delectus. Maiores eius assumenda aperiam
-        sint. Error, magni?
-      </p>
-    </div>
+    <!-- BARRE DE NAVIGATION (NAVBAR) -->
+    <header class="navbar">
+      <div class="logo">MonLogo</div>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#">Accueil</a></li>
+          <li><a href="#">À propos</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
 
-    <aside>
-      <table>
-        <tbody>
-          <tr>
-            <td>Cellule 1</td>
-            <td>Cellule 2</td>
-          </tr>
-          <tr>
-            <td>Cellule 3</td>
-            <td>Cellule 4</td>
-          </tr>
-        </tbody>
-      </table>
-    </aside>
+    <!-- CONTENU PRINCIPAL DE LA PAGE -->
+    <main class="content">
+      <h1>Bienvenue sur mon site web</h1>
+      <p>
+        Ceci est un exemple de page simple construite avec HTML et CSS. La barre
+        de navigation reste en haut, le contenu est centré, et le pied de page
+        reste sagement tout en bas.
+      </p>
+      <p>
+        Vous pouvez modifier ce texte pour y ajouter votre propre contenu, des
+        images ou des boutons.
+      </p>
+    </main>
+
+    <!-- PIED DE PAGE (FOOTER) -->
+    <footer class="footer">
+      <p>&copy; 2026 MonLogo. Tous droits réservés.</p>
+    </footer>
   </body>
 </html>
