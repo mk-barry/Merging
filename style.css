@@ -4,4 +4,23 @@ body{
     margin: 0;
     padding: 0;
     background-color: crimson;
+    color: greenyellow;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+
+    .circle{
+        border-radius: 100%;
+    }
+}
+
+h1, h3{
+    text-align: center;
+}
+
+p{
+    text-align: justify;
+    color: #fff;
 }
