@@ -1,7 +1,19 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: purple;
+}
 
+test {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
 
-body{
-    margin: 0;
-    padding: 0;
-    background-color: crimson;
+aside {
+  width: 200px;
+  height: 100%;
+  background-color: black;
+  color: white;
+  float: left;
 }
